@@ -7,9 +7,11 @@ This Python program turns images to slideshow videos with music using Python, [S
 
 Shotstack API is a cloud based video editing API that enables you to render multiple videos concurrently in the cloud using your favourite programming language. Sign up for a free developer account [here](https://dashboard.shotstack.io/register?utm_source=github&utm_campaign=demo_repos) to get your API key. 
 
-### Why Shotstack API?
+### Why use Shotstack API?
 
-Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more. 
+Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more.
+
+Checkout other video editing demo examples in this [Github repo](https://github.com/shotstack/python-demos).
 
 
 ### Installation
@@ -66,7 +68,7 @@ To access your rendered videos, sign into your Shotstack account. Inside the das
 
 ### Edit and automate video production using Python
 
-This is just a basic example. You can do more with Shotstack Python SDK and API like 
+This is just a basic example. You can do more with Shotstack Python SDK and API like: 
 - Beautify videos by adding effects, transitions, overlays, titles
 - Automate video editing and production
 - Personalize videos with code
