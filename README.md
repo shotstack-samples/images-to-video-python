@@ -11,7 +11,7 @@ Shotstack API is a cloud based video editing API that enables you to render mult
 
 Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more.
 
-Checkout other video editing demo examples in this [Github repo](https://github.com/shotstack/python-demos).
+Checkout other Python demo examples in this [Github repo](https://github.com/shotstack/python-demos).
 
 
 ### Installation
@@ -58,6 +58,13 @@ To run this program, run the `main.py` inside the root folder:
 ```bash
 python images-to-videos-Python/main.py
 ```
+
+### Final video example
+
+Here is what the final rendered video looks like:
+<video id="player" playsinline controls>
+  <source src="https://cdn.shotstack.io/au/stage/c9npc4w5c4/a4199fa0-d65c-42f2-aa5c-c5722fb48886.mp4" type="video/mp4" />
+</video>
 
 ### Accessing rendered videos
 
