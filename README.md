@@ -1,6 +1,6 @@
-## Turn Images To Slideshow Videos Using Python & Shotstack API
+# Turn Images To Slideshow Videos Using Python & Shotstack API
 
-This mini Python program turns images to slideshow videos with music using Python, Shotstack Python SDK, and Shotstack API. Checkout [this tutorial](https://shotstack.io/learn/turn-images-to-slideshow-video-using-python/?utm_source=github&utm_campaign=demo_repos) to learn how it works.
+This Python program turns images to slideshow videos with music using Python, [Shotstack Python SDK](https://pypi.org/project/shotstack-sdk/0.2.1/), and Shotstack API. See [this tutorial](https://shotstack.io/learn/turn-images-to-slideshow-video-using-python/?utm_source=github&utm_campaign=demo_repos) to learn how it works.
 
 
 ### What is Shotstack API?
@@ -9,17 +9,20 @@ Shotstack API is a cloud based video editing API that enables you to render mult
 
 ### Why Shotstack API?
 
-Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the attributes of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. See Docs [here](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more. 
+Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more. 
 
 
 ### Installation
+
+Clone this repository with following command
 
 ```bash
 git clone https://github.com/shotstack-samples/images-to-videos-Python.git
 ```
 
+Go inside the project directory
 ```bash
-cd images-to-video-python-Shotstack-API
+cd images-to-video-python
 ```
 
 Install the required dependencies including the [Shotstack Python SDK](https://pypi.org/project/shotstack-sdk/0.2.1/)
@@ -64,11 +67,11 @@ To access your rendered videos, sign into your Shotstack account. Inside the das
 ### Edit and automate video production using Python
 
 This is just a basic example. You can do more with Shotstack Python SDK and API like 
-- Beautify video by adding effects, transitions, overlays, titles
+- Beautify videos by adding effects, transitions, overlays, titles
 - Automate video editing and production
 - Personalize videos with code
-- Convert media files to gif, mp3
-- Generate, add transcripts to multiple videos concurrently
+- Convert media files i.e. gif, mp3, mp4, jpg, bmp, and png
+- Generate, add SRT files to multiple videos concurrently
 - Use AI to generate media assets to produce videos
 
 See our other [tutorial articles](https://shotstack.io/learn/?utm_source=github&utm_campaign=demo_repos) to learn video editing using Python. 

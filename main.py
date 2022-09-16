@@ -20,6 +20,7 @@ if __name__ == "__main__":
 
     configuration = shotstack.Configuration(host = host)
 
+    #Make sure you have set your API key as an environment variable
     if os.getenv("SHOTSTACK_KEY") is None:
         sys.exit("API Key is required. Set using: export SHOTSTACK_KEY=your_key_here")  
 
@@ -28,6 +29,7 @@ if __name__ == "__main__":
     with shotstack.ApiClient(configuration) as api_client:
         api_instance = edit_api.EditApi(api_client)
 
+        # You may replace the image URLs with your own
         images = [
             "https://s3-ap-southeast-2.amazonaws.com/shotstack-assets/examples/images/pexels/pexels-photo-712850.jpeg",
             "https://s3-ap-southeast-2.amazonaws.com/shotstack-assets/examples/images/pexels/pexels-photo-867452.jpeg",
@@ -41,6 +43,7 @@ if __name__ == "__main__":
             "https://s3-ap-southeast-2.amazonaws.com/shotstack-assets/examples/images/pexels/pexels-photo-539432.jpeg"
         ]
 
+        # You may replace the soundtrack URL with your own
         soundtrack = Soundtrack(
             src     = "https://s3-ap-southeast-2.amazonaws.com/shotstack-assets/music/disco.mp3",
             effect  = "fadeInFadeOut"
