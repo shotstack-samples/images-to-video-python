@@ -78,6 +78,6 @@ This is just a basic example. You can do way more with Shotstack Python SDK like
 - Personalize videos with code
 - Convert media files i.e. gif, mp3, mp4, jpg, bmp, and png
 - Generate, add SRT files to multiple videos concurrently
-- Use AI to generate media assets to produce videos
+- Use AI to generate media assets to produce videos and
 
 See our other [tutorial articles](https://shotstack.io/learn/?utm_source=github&utm_campaign=sample_repos) to learn video editing using Python. 
