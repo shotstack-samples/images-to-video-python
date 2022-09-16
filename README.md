@@ -63,7 +63,7 @@ python images-to-videos-Python/main.py
 
 Here is what the final rendered video looks like:
 <video id="player" playsinline controls>
-  <source src="https://cdn.shotstack.io/au/stage/c9npc4w5c4/a4199fa0-d65c-42f2-aa5c-c5722fb48886.mp4" type="video/mp4" />
+  <source src="https://cdn.shotstack.io/au/stage/c9npc4w5c4/a4199fa0-d65c-42f2-aa5c-c5722fb48886.mp4" type="video/mp4">
 </video>
 
 ### Accessing rendered videos
