@@ -72,7 +72,7 @@ To access your rendered videos, sign into your Shotstack account. Inside the das
 
 ### Edit and automate video production using Python
 
-This is just a basic example. You can do more with Shotstack Python SDK and API like: 
+This is just a basic example. You can do way more with Shotstack Python SDK like: 
 - Beautify videos by adding effects, transitions, overlays, titles
 - Automate video editing and production
 - Personalize videos with code
